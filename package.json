@@ -21,6 +21,7 @@
   "devDependencies": {
     "@biomejs/biome": "^2.6.7",
     "@music_room/config": "workspace:*",
+    "@music_room/shared": "workspace:*",
     "@types/node": "catalog:",
     "turbo": "^2.11.11",
     "typescript": "^6.0.3",

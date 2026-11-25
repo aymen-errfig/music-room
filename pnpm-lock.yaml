@@ -30,6 +30,9 @@ importers:
       '@music_room/config':
         specifier: workspace:*
         version: link:packages/config
+      '@music_room/shared':
+        specifier: workspace:*
+        version: link:packages/shared
       '@types/node':
         specifier: 'catalog:'
         version: 26.6.6
@@ -168,6 +171,8 @@ importers:
         version: 6.0.3
 
   packages/config: {}
+
+  packages/shared: {}
 
 packages:
 
