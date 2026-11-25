@@ -1,0 +1,30 @@
+{
+  "name": "music_room",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "check-types": "turbo run check-types",
+    "dev:native": "turbo run dev -F native --",
+    "env:generate": "varlock codegen --path ./apps/native/",
+    "postinstall": "varlock codegen --path ./apps/native/",
+    "check": "biome check --write ."
+  },
+  "dependencies": {
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.7",
+    "@music_room/config": "workspace:*",
+    "@types/node": "catalog:",
+    "turbo": "^2.11.11",
+    "typescript": "^6.0.3",
+    "varlock": "catalog:"
+  },
+  "packageManager": "pnpm@11.2.2"
+}
