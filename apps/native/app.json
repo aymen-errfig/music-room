@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "music_room",
-    "slug": "music_room",
+    "name": "music-room",
+    "slug": "music-room",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "music_room",
+    "scheme": "music-room",
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true,
@@ -19,7 +19,7 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.music_room"
+      "package": "com.anonymous.musicroom"
     },
     "web": {
       "bundler": "metro",
@@ -39,7 +39,8 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
