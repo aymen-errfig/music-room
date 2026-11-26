@@ -1,3 +1,1 @@
-const EXAMPLE = "somthing"
-
-export { EXAMPLE }
+export { type AppRouter } from '../../apps/api/src/@generated/server';
